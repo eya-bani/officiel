@@ -1,0 +1,64 @@
+{
+  "champions": [
+    {
+      "id": 1,
+      "img": "https://www.leagueoflegends.com/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png",
+      "name": "akali",
+      "region": "ionia",
+      "legacy": "Assasin",
+      "attaque": "62",
+      "defense": "570",
+      "speed": "345"
+    },
+    {
+      "id": 2,
+      "img": "https://www.leagueoflegends.com/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png",
+      "name": "yasuo",
+      "region": "ionia",
+      "legacy": "Fighter",
+      "attaque": "60",
+      "defense": "590",
+      "speed": "345"
+    },
+    {
+      "id": 3,
+      "img": "https://www.leagueoflegends.com/static/mage-3bfa6dfe620adafe5e539c2e470f4acc.png",
+      "name": "lux",
+      "region": "damacia",
+      "legacy": "Mage",
+      "attaque": "54",
+      "defense": "560",
+      "speed": "330"
+    },
+    {
+      "id": 4,
+      "img": "https://www.leagueoflegends.com/static/marksman-b339ed8fd7e04ff2c3fca022c5d299fb.png",
+      "name": "jinx",
+      "region": "Zaun",
+      "legacy": "Marksman",
+      "attaque": "59",
+      "defense": "630",
+      "speed": "325"
+    },
+    {
+      "name": "thresh",
+      "img": "https://www.leagueoflegends.com/static/support-d63ae08baf517425864ddc020a5871d5.png",
+      "region": "Shadow Isles",
+      "legacy": "Support",
+      "attaque": "56",
+      "defense": "600",
+      "speed": "325",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "img": "https://www.leagueoflegends.com/static/tank-1245abc326bd98c567ab22659719a1a3.png",
+      "name": "leona",
+      "region": "Mont Targon",
+      "legacy": "Tank",
+      "attaque": "60",
+      "defense": "646",
+      "speed": "335"
+    }
+  ]
+}

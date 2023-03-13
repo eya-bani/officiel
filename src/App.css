@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+padding: 0;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+ form{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+width: 40%;
+margin: auto;
+padding: 5rem;
+}
+ form input{
+border-top: none;
+border-bottom:2px solid red ;
+border-left:none ;
+border-right:none ;
+background-color: transparent;
+width: 100%;
+color: white;
+
+ }
+ form input::placeholder{
+ color: white;
+ }
+ .addchamp h1{
+  text-align: center;
+ }
+.but{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+button{
+padding: 7px 14px;
+background-color: transparent;
+border: 2px yellowgreen solid;
+box-shadow: 0px 0px 5px 1px yellowgreen;
+color: white;
+
+}
+.nav ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap:15px;
+list-style: none;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+} 
+.showdata h1{
+  text-align: center;
+}
+video{
+  width: 100%;
+  height: 100vh;
+}
+.cover{
+  width: 100%;
+  height: 30vh;
+}
+.cover img{
+  width: 100%;
+  height: 100%;
+}
+.ff{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 9999;
+transform: translate-(50% -50%);
+backdrop-filter: blur(80px);
+width: 100%;
+height: 100vh;
+
+
+}
+.x{
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  background-color: red;
+  border-radius: 50%;
+  padding: 20px;
+}
+.showdata{
+  position: relative;
+}
+ .cards{
+  padding: 3rem ;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap:60px;
+
+}
+.card{
+  border: 2px red solid;
+  box-shadow: 0px 0px 10px 5px red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  justify-content: flex-start;
+
+}
+h4 ,h2{
+  margin: 0.5rem;
+}
+.card > h4{
+  color: blue;
+}
+.card > h2{
+  color: blue;
+}
+span{
+  color: white;
+}
+.forma{
+  display: none;
+}
+.forma.open{
+  display: block;
+}
+.footer{
+border-top: 2px red solid;
+padding: 2rem;
+text-align: center;
+
+}
+.footer ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:15px;
+  list-style: none;
+  }
+  .footer img{
+    margin-left: 15px;
+  }
